@@ -1,0 +1,126 @@
+:root {
+    --primary-color: white;
+    --danger-color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--danger-color);
+    color: var(--primary-color);
+}
+
+header::before {
+    background: url('https://source.unsplash.com/collection/190727px/1600x900') no-repeat center center/cover;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 210vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#nav ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 30px;
+    font-size: 28px;
+    margin: auto 105px;
+}
+
+li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+section h1 {
+    font-size: 40px;
+}
+
+#main div {
+    border: 2px solid grey;
+    width: 300px;
+    height: 290px;
+    margin: 40px 5%;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+}
+#service-section{
+    text-align: center;
+    font-size: 40px;
+}
+#contact_div h1{
+    font-size: 60px;
+}
+#contact_div{
+    height: 650px;
+    width: 40%;
+    margin: auto;
+}
+form{
+    border: 2px solid white;
+}
+input{
+    margin: 20px ;
+    width: 60%;
+    height: 30px;
+}
+label{
+    font-size: 25px;
+}
+textarea{
+    width: 60%;
+    margin: 20px;
+}
+#contact_section::before{
+    background: url('https://source.unsplash.com/collection/190727px/1600x900') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: azure;
+}
+button{
+    padding: 10px;
+    border-radius:10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+footer{
+    margin: 20px;
+}
+#info{
+    display: flex;
+    flex-direction:row;
+    height: 200px; 
+    width: 100%; 
+    margin-bottom: 6%; 
+    margin-top: 3%;
+}
+.info_2{
+    border-left: 2px solid white; 
+    padding-left: 30px;
+    margin-left: 50px; 
+    height: 100%;
+}
